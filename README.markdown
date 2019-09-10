@@ -1,5 +1,5 @@
 # Akka Persistence Redis Plugin
-[![Build Status](https://travis-ci.org/safety-data/akka-persistence-redis.svg?branch=master)](https://travis-ci.org/safety-data/akka-persistence-redis)
+[![Build Status](https://travis-ci.org/ezra-quemuel/akka-persistence-redis.svg?branch=master)](https://travis-ci.org/safety-data/akka-persistence-redis)
 
 - [Scaladoc](https://safety-data.github.io/akka-persistence-redis/latest/api/index.html)
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -33,7 +33,7 @@ The plugin is compiled with Scala 2.12 and 2.11 and are deployed on maven sonaty
 To use the plugin add this to your sbt build file :
 
 ```scala
-libraryDependencies += "com.safety-data" %% "akka-persistence-redis" % "0.4.1"
+libraryDependencies += "com.ezra-quemuel" %% "akka-persistence-redis" % "0.4.1"
 ```
 
 _Note_: for snapshot versions you will need to add the sonatype snapshot resolver.
@@ -108,3 +108,7 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+## Notes
+
+This is a fork of https://github.com/safety-data/akka-persistence-redis. Once https://github.com/safety-data/akka-persistence-redis/pulls is merged in, this fork will be obsolete.
