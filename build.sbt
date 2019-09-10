@@ -17,18 +17,18 @@ lazy val publishSettings = Seq(
   pomExtra := (
     <developers>
       <developer>
-        <id>satabin</id>
-        <name>Lucas Satabin</name>
-        <email>satabin@safety-data.com</email>
+        <id>ezra-quemuel</id>
+        <name>Ezra Quemuel</name>
+        <email>ezra.quemuel@gmail.com</email>
       </developer>
     </developers>
     <ciManagement>
         <system>travis</system>
-        <url>https://travis-ci.org/#!/safety-data/akka-persistence-redis</url>
+        <url>https://travis-ci.org/ezra-quemuel/akka-persistence-redis</url>
       </ciManagement>
       <issueManagement>
         <system>github</system>
-        <url>https://github.com/safety-data/akka-persistence-redis/issues</url>
+        <url>https://github.com/ezra-quemuel/akka-persistence-redis/issues</url>
       </issueManagement>
     )
   )
